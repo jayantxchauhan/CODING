@@ -5,7 +5,8 @@
 #define f(x) (pow(x,3)-4*x-9)
 using namespace std;
 
-int main(){
+int main()
+{
     
     float x0,x1,x,f0,f1,f,e;
     int step=1;
