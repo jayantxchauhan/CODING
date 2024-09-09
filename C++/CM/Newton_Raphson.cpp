@@ -40,8 +40,8 @@ int main()
 		  f1 = f(x1);
 	 }while(fabs(f1)>e);
 	 cout<< endl<<"Root is: "<< x1<<endl;
-     cout<<"JAYANT CHAUHAN"<<endl;
-     cout<<"06114802723"<<endl;
+     cout<<"SAUMIL BISHT"<<endl;
+     cout<<"06214802723"<<endl;
 	 return 0;
 }
 

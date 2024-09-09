@@ -5,14 +5,11 @@ class Compare {
     int a, b, c;
 
 public:
-    // Setting the data using a function
     void setData(int x, int y, int z) {
         a = x;
         b = y;
         c = z;
     }
-
-    // Friend function to find the largest number
     friend int findLargest(Compare obj);
 };
 
