@@ -4,5 +4,8 @@
         "ostream": "cpp",
         "ios": "cpp",
         "xlocale": "cpp"
-    }
+    },
+    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark - C++",
+    "workbench.preferredHighContrastColorTheme": "Visual Studio 2017 Dark - C++"
 }

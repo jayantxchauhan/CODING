@@ -1,22 +1,22 @@
 #include <iostream>
 using namespace std;
 
-class Number {
-    int value;
-
+class Num {
+    int num;
 public:
-    Number(int v = 0) : value(v) {}  
-    friend void display(const Number& num);
+    Num(int x) : num(x) {} 
+    friend int cube(Num);
 };
-void display(const Number& num) {
-    cout << "Value: " << num.value << endl;
-}
-int main() {
-    int userInput;
-    cout << "Enter a number: ";
-    cin >> userInput;
-    Number num1(userInput);
-    display(num1);
 
+inline int cube(Num x) {
+    return (x.num) * (x.num) * (x.num); 
+}
+
+int main() {
+    int p;
+    cout << "Enter the number: ";
+    cin >> p;
+    Num num1(p);
+    cout << "\nThe cube of the number is: " << cube(num1) << endl;
     return 0;
 }
