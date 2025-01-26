@@ -3,7 +3,10 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "ios": "cpp",
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "xstring": "cpp",
+        "istream": "cpp",
+        "string": "cpp"
     },
     "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
     "workbench.preferredDarkColorTheme": "Visual Studio Dark - C++",
